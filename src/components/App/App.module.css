@@ -1,0 +1,14 @@
+.app-container {
+	height: 100vh;
+
+	display: flex;
+	flex-flow: column;
+}
+
+.app-content {
+	flex: auto;
+
+	overflow: auto;
+
+	padding-bottom: 32px;
+}

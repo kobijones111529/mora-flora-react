@@ -1,0 +1,12 @@
+.marker :global(.leaflet-marker-icon) {
+	border-radius: 4px;
+}
+
+.marker :global(.leaflet-marker-icon):focus {
+	outline-offset: 1px;
+	outline: 1px solid rgb(31, 137, 84);
+}
+
+.attribution a {
+	outline: none;
+}

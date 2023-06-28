@@ -1,0 +1,22 @@
+.form {
+	display: flex;
+	flex-flow: column;
+	gap: 12px;
+
+	padding-bottom: 32px;
+}
+
+.map-button {
+	align-self: center;
+
+	width: 80%;
+	height: 200px;
+	min-width: 64px;
+	max-width: 512px;
+
+	border: none;
+	margin: 0;
+	padding: 0;
+
+	cursor: pointer;
+}

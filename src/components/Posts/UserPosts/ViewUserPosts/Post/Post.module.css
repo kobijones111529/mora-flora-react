@@ -1,0 +1,75 @@
+.card {
+	border-radius: 12px;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
+
+	text-align: center;
+
+	padding-bottom: 24px;
+
+	display: flex;
+	flex-flow: column;
+	gap: 24px;
+}
+
+.top-row {
+	margin: 0px 24px;
+
+	display: flex;
+	flex-flow: row flex;
+	justify-content: stretch;
+	align-items: center;
+
+	gap: 24px;
+}
+
+.top-row * {
+	margin: 0;
+}
+
+.top-row img {
+	flex: 0;
+}
+
+.top-row h3 {
+	flex: auto;
+}
+
+.img {
+	border-radius: 12px 12px 0 0;
+}
+
+.post-type-icon {
+	width: 32px;
+	height: 32px;
+	min-width: 32px;
+	min-height: 32px;
+}
+
+.distance {
+	font-size: 0.75rem;
+}
+
+.description {
+	align-self: center;
+
+	margin: 0 40px;
+
+	text-align: left;
+}
+
+.contact {
+	margin: 0 24px;
+
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	gap: 8px;
+}
+
+.contact * {
+	margin: 0;
+}
+
+.contact p {
+	margin-left: 16px;
+}

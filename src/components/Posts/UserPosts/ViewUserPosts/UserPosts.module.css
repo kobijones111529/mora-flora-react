@@ -1,0 +1,27 @@
+.container {
+	margin-top: 24px;
+	padding-bottom: 16px;
+
+	display: flex;
+	flex-flow: column;
+	gap: 32px;
+}
+
+.create-post-button {
+	align-self: center;
+
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+	border-radius: 9999px;
+
+	padding: 12px 64px;
+
+	font-size: 32px;
+}
+
+.posts-container {
+	margin: 0 32px;
+
+	display: flex;
+	flex-flow: column;
+	gap: 32px;
+}

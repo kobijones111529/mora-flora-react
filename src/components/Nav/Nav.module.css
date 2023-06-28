@@ -1,0 +1,68 @@
+.container {
+	background-color: white;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+
+	position: sticky;
+	bottom: -1px; /* Offset to fix rounding issues (small gap below nav bar) */
+
+	padding: 8px 8px;
+}
+
+.nav {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+
+	text-align: center;
+}
+
+.nav * {
+	flex: 1;
+}
+
+.home-button-container {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+.home-button {
+	position: absolute;
+	bottom: 8px;
+	width: 72px;
+	height: 72px;
+
+	padding: 0;
+
+	border-radius: 9999px;
+	border: none;
+	outline: none;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+
+	background-color: rgb(245, 245, 245);
+	color: black;
+
+	font-size: 24px;
+}
+
+.nav-item {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+
+	color: black;
+
+	font-size: 16px;
+}
+
+.nav-item a {
+	text-decoration: underline;
+}
+
+.nav-item div {
+	padding: 8px 16px;
+}
+
+.nav-item div * {
+	padding: 8px;
+}

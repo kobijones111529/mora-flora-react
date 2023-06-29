@@ -1,6 +1,6 @@
 # Mora Flora
 
-**An app for plant enthusiast, by a plant enthusiast.**
+**An app for plant enthusiasts, by a plant enthusiast.**
 
 ---
 

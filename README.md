@@ -28,7 +28,7 @@ the app up and running.
 
 - Node.js
 - A new or existing instance of this app's API
-  - Check back later for more information on this
+  - Check out the [repo](https://github.com/kobijones111529/mora-flora-api-express)
 
 ### Setup
 
